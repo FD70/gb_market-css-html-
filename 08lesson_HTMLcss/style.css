@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    background-image: url(img/back.jpg);
+}
+.header {
+    padding-top: 63px;
+}
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+.menu {
+    float: right;
+}
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+    letter-spacing: 1.4px;
+}
+.menu-link:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+.menu-link-active { 
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+.slider-text {
+    margin-top: 283px;
+}
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.slider-button {
+    /* Style for "Order Us" */
+    color: #212121;
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: 700;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    
+    width: 212px;
+    height: 45px;
+    text-align: center;
+    border-radius: 23px;
+
+    display: inline-block;
+    text-decoration: none;
+}
+.slider-button:hover {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+.slider-button:active {
+    background-color: aquamarine;
+    box-shadow: 0 1px 3px 0px rgba(33, 33, 33, 0.85);
+    opacity: 60%;
+}
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+.circle:hover {
+    background-color: #214121;
+}
+.circle:active {
+    opacity: 80%;
+}
+/**********************************************************/
+.content1 {
+    height: 609px;
+}
+.content1-header {
+    height: 219px;
+}
+.content1-menu {
+    list-style-type: none;
+    float: left;
+}
+.content1-link {
+    padding-top: 120px;
+    padding-left: 9px;
+    padding-right: 20px;
+    float: left;
+    /* Style for "New" */
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom: 1px solid #6c6c6c;
+}
+.content1-link-active, .content1-link:hover {
+    /* Style for "Featured" */
+    color: #212121;
+    border-bottom: 3px solid #212121;
+    overflow: hidden;
+}
+.content1-button {
+    float: right;
+    margin-top: 138px;
+}
+.content1-items .item {
+    margin-right: 30px;
+    float: left;
+}
+.content1-items .item:last-child {
+    margin-right: 0px;
+}
+/********************************************************/
+.content2 {
+    height: 683px;
+}
+.content2 .promo {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+.content2 .exclusive {
+    /* Style for "exclusive" */
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-left: 51px;
+    margin-top: 228px;
+}
+.content2 .h2 {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 36px;
+    font-weight: 900;
+    margin-left: 52px;
+    line-height: 46px;
+}
+.content2 .text {
+    /* Style for "Seat and b" */
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 50px;
+    width: 374px;
+    line-height: 24px;
+}
+.content2 .slider-button {
+    margin-top: 34px;
+    margin-left: 50px;
+}
+.content2 .promo:nth-child(1) {
+    background-image: url(img/promo-img1.jpg);
+}
+.content2 .promo:nth-child(2) {
+    background-image: url(img/promo-img.jpg);
+}
+/**********************************************************/
+.content3 {
+    height: 1108px;
+}
+.content3 .header {
+    height: 218px;
+}
+.content3 .h2 {
+    /* Style for "Trending P" */
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 119px;
+    letter-spacing: -1px;
+    display: inline-block;
+}
+.content3 .item {
+    margin-right: 30px;
+    float: left;
+}
+.content3 .item:nth-child(3n+1) {
+    margin-right: 0px;
+}
+.content3 .slider-button {
+    float: right;
+    margin-top: 138px;
+}
+.content4 {
+    height: 800px;
+    background-image: url(img/slider4.jpg);
+    position: relative;
+}
+.content4 .content {
+    display: inline-block;
+    margin-top: 287px;
+}
+.content4 .uph2 {
+    /* Style for "Hot deal" */
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.content4 .h2 {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.content4 .text {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+/**********************************************************/
+.content5 {
+    height: 810px;
+}
+.content5 .promo {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.content5 .promo .left-item {
+    width: 570px;
+    height: 570px;
+    background-image: url(img/product-1-lg.jpg);
+    margin-top: 120px;
+    margin-right: 15px;
+    float: right;
+}
+.content5 .textbox {
+    margin-top: 186px;
+    width: 332px;
+    margin-left: 30px;
+}
+.content5 .textbox .uph2 {
+    /* Style for "exclusive" */
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.content5 .textbox .h2 {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.content5 .textbox .text {
+    /* Style for "Seat and b" */
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+.content5 .promo .right-item {
+    margin-top: 120px;
+    margin-left: 15px;
+}
+.content5 .promo .item {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.content5 .promo .item:nth-child(2n) {
+    margin-right: 0;
+}
+.backapp {
+    height: 516px;
+    background-image: url(img/back-img.jpg);
+}
+.backapp .textbox {
+    width: 450px;
+/*    margin-top: 125px;*/
+}
+.backapp .uph2 {
+    /* Style for "mobile app" */
+    padding-top: 125px;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.backapp .h2 {
+    /* Style for "Find. Foll" */
+    color: #212121;
+    font-size: 58px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.backapp .text {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 33px;
+}
+.footer {
+    height: 384px;
+    background-image: url(img/footer-back.jpg);
+}
+.footer .content {
+    padding-top: 120px;
+    height: 216px;
+}
+.footer .uph2 {
+    /* Style for "Contact Us" */
+    margin-bottom: 20px;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.footer .contact {
+    width: 25%;
+    float: left;
+}
+.footer .contact .text {
+    /* Style for "132A Bridg" */
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 20px;
+    width: 242px;
+}
+.footer .useful {
+    width: 42%;
+    float: left;
+}
+.footer .useful .link {
+    width: 50%;
+    float: left;
+}
+.footer .useful .link a {
+    /* Style for "Sales term" */
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+line-height: 26px;
+}
+.footer .useful .link a:hover {
+    color: crimson;
+}
+.footer .useful .link a:active {
+    color: green;
+    box-shadow: 0 1px 3px 0 rgba(20,200,20,0.15);
+}
+.footer .send {
+    width: 33%;
+    float: left;
+}
+.footer .send .text {
+    /* Style for "Suscribe t" */
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer .malebox {
+    margin-top: 30px;
+    width: 360px;
+    float:right;
+    height: 48px;
+    /* Style for "your email" */
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.footer .blinks {
+    text-align: center;
+}
+.footer .copyright {
+    margin-top: 8px;
+    float: left;
+    display: inline-block;
+    /* Style for "© Copyrigh" */
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+.footer .terms {
+    margin-top: 8px;
+    display: inline-block;
+    float: right;
+    /* Style for "Terms & Co" */
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+/************************************************/
+.content1-items .hover {
+    text-align: center;
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    background-image: url(img/backhover.png);
+    opacity: 0%;
+    box-shadow: 0 1px 10px 0px rgba(33, 33, 33, 0.35);
+}
+.content1-items .hover .uph2 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+}
+.content1-items .hover .text {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+.content1-items .hover:hover {
+    opacity: 100%;
+}
+.content1-items .hover:active {
+    opacity: 80%;
+    box-shadow: 0px 1px 3px 0px rgba(33, 33, 33, 0.55);
+}
+.content1-items .hover .slider-button {
+    width: 48px;
+    margin-top: 62px;
+}
+.content3 .item:hover {
+    box-shadow: 0px 1px 3px 0px rgba(33, 33, 33, 0.55);
+}
+.content5 .right-item .item:hover {
+    box-shadow: 0px 1px 3px 0px rgba(33, 33, 33, 0.55);
+}
+/*
+div {
+    outline: 1px solid green;
+}
+*/
