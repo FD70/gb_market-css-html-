@@ -1,2 +1,2 @@
 # gb_market-css-html-
-market for a GB lessons
+Эта страница была создана по Интерактивному HTML/CSS курсу GeekBrains 
